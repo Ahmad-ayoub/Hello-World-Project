@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #e66465, #9198e5);
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+  animation: color-change 5s infinite;
+  transition: font-size 0.5s ease-in-out;
+}
+
+h1:hover {
+  font-size: 50px;
+}
+
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: yellow;
+  }
+  75% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
+div {
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
